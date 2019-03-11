@@ -1,10 +1,27 @@
 .character-card {
-    background: #fff;
-    border-radius: 2px;
+    background-image: './space.jpg';
+    border-radius: 10px;
     display: flex;
     max-height: 200px;
     margin: 1rem;
     padding: 1rem;
-    width: 400px;
+    width: 35%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    justify-content: center;
+    align-items: center;
 }
+
+.name {
+    border: 1px solid #D4D16A;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    background: #7D498C;
+    /* text-shadow: 1px 1px 5px black; */
+    color: #D4D16A;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
