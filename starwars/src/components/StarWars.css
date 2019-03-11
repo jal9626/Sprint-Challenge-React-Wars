@@ -1,5 +1,5 @@
 .character-card {
-    background-image: './space.jpg';
+    background-image: none;
     border-radius: 10px;
     display: flex;
     max-height: 200px;
@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 .name {
     border: 1px solid #D4D16A;
@@ -23,5 +24,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+p {
+    color: #D4D16A;
+    text-shadow: 1px 1px 5px black;
+}
+
+.character-info {
+    display: flex;
+    flex-direction: column;
 }
 
